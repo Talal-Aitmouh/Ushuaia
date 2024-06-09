@@ -157,6 +157,7 @@ nav {
     font-family: monospace;
     font-weight: bold;
     transition: .5s;
+    cursor: pointer;
 }
 .arrows button:hover{
     background-color: #fff;
