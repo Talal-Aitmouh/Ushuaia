@@ -10,15 +10,17 @@ a{
     text-decoration: none;
 }
 header{
-    width: 1140px;
+    /*width: 1140px;
     max-width: 100%;
-    margin: auto;
+    */margin: auto;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 100;
+    background-color: rgba(0, 0, 0, 0.363);
+    backdrop-filter: blur(17px);
 }
 header a{
     color: #eee;
