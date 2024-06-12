@@ -34,7 +34,7 @@ header a{
     -o-transition: all 0.5s ease-in-out;
     border-bottom: 2px solid transparent;
 }
-header a:hover {
+header a:not(:has(i,img)):hover {
     color: #f3cc0b;
     border-bottom-color: #f3cc0b;
 }
